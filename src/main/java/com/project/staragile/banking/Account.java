@@ -8,11 +8,11 @@ public class Account {
 
 	@Id
 	private int accountNumber;
-	
+
 	private String accountName;
-	
+
 	private String accountType;
-	
+
 	private double accountBalance;
 
 	public Account(int accountNumber, String accountName, String accountType, double accountBalance) {
@@ -59,10 +59,5 @@ public class Account {
 	public void setAccountBalance(double accountBalance) {
 		this.accountBalance = accountBalance;
 	}
-	
-	
-	
-	
-	
-	
+
 }
